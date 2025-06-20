@@ -48,7 +48,7 @@ export default function TestimonialSlider() {
   const nextSlide = () => setCurrent(current === length - 1 ? 0 : current + 1);
 
   return (
-    <section className="max-w-full mx-auto p-8 rounded-xl bg-gradient-to-tr from-indigo-900 via-purple-900 to-pink-700 text-white shadow-2xl relative select-none">
+    <section  id="testimonials" className="max-w-full mx-auto p-8 rounded-xl bg-gradient-to-tr from-indigo-900 via-purple-900 to-pink-700 text-white shadow-2xl relative select-none">
       <h2 className="text-4xl font-extrabold mb-12 text-center tracking-wide drop-shadow-lg">
         What Our Clients Say
       </h2>

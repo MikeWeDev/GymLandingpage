@@ -84,6 +84,7 @@ export default function CourseSection() {
 
   return (
     <section
+    id="courses"
       className="relative py-24 px-6 sm:px-12 bg-cover bg-center bg-no-repeat overflow-hidden"
       style={{ backgroundImage: "url('/img/services-img.jpg')" }}
     >

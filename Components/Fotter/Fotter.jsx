@@ -1,6 +1,6 @@
 export default function Fotter() {
   return (
-    <footer className="bg-gradient-to-br from-indigo-900 via-purple-900 to-pink-900 text-white py-12">
+    <footer id="contact" className="bg-gradient-to-br from-indigo-900 via-purple-900 to-pink-900 text-white py-12">
       <div className="max-w-7xl mx-auto px-6">
 
         {/* Subscribe + Socials */}
